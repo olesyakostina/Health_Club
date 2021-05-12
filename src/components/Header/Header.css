@@ -1,0 +1,74 @@
+.App {
+    background-color: #2b283cd6;
+}
+
+.title_text {
+    color: whitesmoke;
+    text-align: center;
+    font-size: large;
+    text-transform: uppercase;
+    margin-top: 90px;
+}
+.Icons {
+    display: flex;
+    flex-direction: column;
+}
+.Icons__item {
+    display: flex;
+    padding-left: 30px;
+}
+.item__p {
+    text-decoration: none;
+    color: darkblue;
+    font-size: 10px;
+}
+@-webkit-keyframes scroll {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -webkit-transform: translate(-100%, 0);
+        transform: translate(-100%, 0);
+    }
+}
+
+@-moz-keyframes scroll {
+    0% {
+        -moz-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -moz-transform: translate(-100%, 0);
+        transform: translate(-100%, 0);
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
+
+.marquee {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    -webkit-animation: scroll 20s infinite linear;
+    -moz-animation: scroll 20s infinite linear;
+    animation: scroll 20s infinite linear;
+}
+.classes.title {
+    border-color: beige;
+    box-shadow: 0px 0px 45px beige;
+    color: beige;
+}

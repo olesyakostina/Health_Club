@@ -1,0 +1,12 @@
+.comment__item {
+    font-size: 25px;
+}
+.comment-main {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    /* width: 400px; */
+}
+.comment-main {
+    background-color: #c4cad0;
+}

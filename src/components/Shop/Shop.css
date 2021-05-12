@@ -1,0 +1,36 @@
+.Hero_text {
+    text-align: center;
+}
+.Hero_text_item {
+    font-size: 30px;
+}
+.Hero_text_elem {
+    font-size: 30px;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background: aliceblue;
+}
+.hero__btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.hero__btn_click {
+    width: 80%;
+    font-size: 30px;
+    border-radius: 6px;
+}
+.hero__btn_click:hover {
+    background-color: #a19f9f;
+    color: black;
+}
+.MuiCardActionArea-root {
+    width: 71%;
+    display: block;
+    text-align: inherit;
+}

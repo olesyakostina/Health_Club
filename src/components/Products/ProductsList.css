@@ -1,0 +1,53 @@
+.productCard {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+.prodCard {
+    margin-bottom: 30px;
+}
+.diapazon {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 200px;
+}
+.diapazon__inp {
+    width: 200px;
+    height: 50px;
+    color: rgb(53, 4, 16);
+}
+.diapazon__text {
+    text-align: center;
+    color: beige;
+}
+.diapazon__p {
+    text-align: center;
+    color: beige;
+    margin: 2px;
+}
+.diapazon__inp:hover {
+    background-color: #d7ddf1;
+}
+.diapazon__btn {
+    background-color: #d7ddf1;
+    margin-top: 10px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.accordeon {
+    width: 200px;
+}
+.Card__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordeon__sort {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}

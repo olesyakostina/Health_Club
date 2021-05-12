@@ -1,0 +1,26 @@
+.payment__cart {
+    display: flex;
+    justify-content: center;
+}
+.pay_now {
+    display: flex;
+    width: 600px;
+    height: 70px;
+    padding-left: 270px;
+    padding-top: 25px;
+    color: darkred;
+    margin-bottom: 40px;
+}
+.payment__inp {
+    color: darkred;
+    font-size: 20px;
+}
+.payment__inp:hover {
+    background-color: #d7ddf1;
+}
+.pay_now:hover {
+    background-color: #d7ddf1;
+}
+.payment__lable {
+    color: cornsilk;
+}

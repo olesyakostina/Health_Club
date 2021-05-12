@@ -1,0 +1,45 @@
+.add__item {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.add__item input:hover {
+    font-size: 20px;
+    background-color: #dde4f1;
+}
+.add__item textarea:hover {
+    font-size: 20px;
+    background-color: #dde4f1;
+}
+
+.add-input {
+    margin-bottom: 20px;
+    background-color: #dde4f1;
+    color: darkred;
+    width: 300px;
+}
+
+.add-input textarea {
+    margin-bottom: 20px;
+}
+.add_btn:hover {
+    color: blanchedalmond;
+    background-color: #e5986a;
+}
+.add-button {
+    margin-bottom: 20px;
+    border-color: #bc3b0b;
+    height: 50px;
+}
+
+input {
+    width: 345px;
+    height: 50px;
+    text-align: center;
+}
+.add-button {
+    width: 300px;
+}
