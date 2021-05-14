@@ -154,8 +154,9 @@ const ProductsContextProvider = ({ children }) => {
         getProductDetails(id);
     }
     function changeProductCount(count, id) {
-        console.log(count, "count 1");
-        if (count < 1) count = 1;
+        if (count < 1) {
+            count = 1;
+        }
         console.log(count, "count 2");
         let basket = JSON.parse(localStorage.getItem("basket"));
         basket.product = basket.products.map((elem) => {
@@ -343,7 +344,7 @@ const ProductsContextProvider = ({ children }) => {
                 changeFavoriteProductCount,
                 checkProductInFavorite,
                 deleteFavoriteProducts,
-                // ref,
+                getLength,
             }}
         >
             {children}

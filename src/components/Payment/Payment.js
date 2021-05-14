@@ -24,6 +24,7 @@ export default class PaymentForm extends React.Component {
 
         this.setState({ [name]: value });
     };
+
     // paynow = () => {
     //     try {
     //         let basket = {

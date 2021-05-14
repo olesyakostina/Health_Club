@@ -121,8 +121,8 @@ const Basket = () => {
                                                     paddingLeft: "20px",
                                                     marginLeft: "20px",
                                                 }}
-                                                defaultValue={1}
-                                                minValue={0}
+                                                // defaultValue={1}
+                                                // minValue={1}
                                                 type="number"
                                                 onChange={(e) =>
                                                     changeProductCount(
@@ -130,6 +130,7 @@ const Basket = () => {
                                                         elem.item.id
                                                     )
                                                 }
+                                                value={elem.count}
                                             />
                                         </td>
                                         <td
