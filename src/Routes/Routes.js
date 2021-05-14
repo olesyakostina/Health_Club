@@ -21,6 +21,7 @@ import Comments from "../components/Comment/Comment";
 import CommentContextProvider from "../components/Context/CommentContext";
 import Favorite from "../components/Favorite/Favorite";
 // import CreditCard from "../components/Payment/Credit";
+import Page from "../components/Page/Page";
 const Routes = () => {
     return (
         <div>
@@ -72,6 +73,7 @@ const Routes = () => {
                                 path="/favorite"
                                 component={Favorite}
                             />
+                            <Route exact path="/page" component={Page} />
                         </Switch>
                         <Footer />
                     </BrowserRouter>

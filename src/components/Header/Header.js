@@ -151,11 +151,11 @@ export default function Header() {
     // const [test, setTest] = useState(basketLength);
     const basket = localStorage.getItem("basket");
 
-    useEffect(() => {
-        if (basket) {
-            getLength(JSON.parse(basket));
-        }
-    }, [basket]);
+    // useEffect(() => {
+    //     if (basket) {
+    //         getLength(JSON.parse(basket));
+    //     }
+    // }, [basket]);
 
     //-----search
     const handleValue = (e) => {

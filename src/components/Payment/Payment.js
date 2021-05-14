@@ -98,8 +98,13 @@ export default class PaymentForm extends React.Component {
                                 onChange={this.handleInputChange}
                                 onFocus={this.handleInputFocus}
                             />
-                            <Link to="/">
-                                <button className="pay_now">Pay now</button>
+                            <Link to="/page">
+                                <button
+                                    onClick={() => localStorage.clear()}
+                                    className="pay_now"
+                                >
+                                    Pay now
+                                </button>
                             </Link>
                         </form>
                     </div>

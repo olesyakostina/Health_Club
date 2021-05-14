@@ -204,10 +204,10 @@ const ProductsContextProvider = ({ children }) => {
         });
     }
 
-    function getLength(basket) {
+    function getLength1() {
         dispatch({
             type: "CHANGE_BASKET_COUNT",
-            payload: basket.products.length,
+            payload: 0,
         });
     }
 
@@ -323,7 +323,7 @@ const ProductsContextProvider = ({ children }) => {
                 productData: state.productData,
                 favorite: state.favorite,
                 favoriteLength: state.favoriteLength,
-                getLength,
+                // getLength,
                 basket: state.basket,
                 basketLength: state.basketLength,
                 productDetails: state.productDetails,
@@ -344,7 +344,7 @@ const ProductsContextProvider = ({ children }) => {
                 changeFavoriteProductCount,
                 checkProductInFavorite,
                 deleteFavoriteProducts,
-                getLength,
+                getLength1,
             }}
         >
             {children}
